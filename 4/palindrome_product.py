@@ -14,7 +14,7 @@ while i < 1000:
       if is_palindrome(str(k)) and k > result:
          result = k
       j += 1
-   j = 100
    i += 1
+   j = i
 
 print(result)
